@@ -10,7 +10,7 @@ int binary_search(vector<int> v, int target)
     int end = v.size() - 1;
     while (start <= end)
     {
-        int mid = (start + end) / 2; // can lead to inteager overflow so use s/2 + e/2 or s+(e-s)/2
+        int mid = (start + end) / 2; // can lead to inteager overflow so use  s+(e-s)/2
         if (v[mid] == target)
         {
             return mid + 1;
