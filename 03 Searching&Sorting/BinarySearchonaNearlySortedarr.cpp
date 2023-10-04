@@ -15,11 +15,11 @@ int binarySearch(vector<int> arr, int target)
         {
             return mid;
         }
-        if (target == arr[mid - 1])
+        if (mid-1>=0 && target == arr[mid - 1])
         {
             return mid - 1;
         }
-        if (target == mid + 1)
+        if (mid+1<arr.size() && target == mid + 1)
         {
             return mid + 1;
         }
