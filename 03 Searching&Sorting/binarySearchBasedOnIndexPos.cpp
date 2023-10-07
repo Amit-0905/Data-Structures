@@ -2,6 +2,8 @@
 
 //  In Given arr basilly every element exist in pairs i.e even no. of times so find the only no. that is without pair i.e its occurence is odd times
 
+// https://www.geeksforgeeks.org/find-the-element-that-odd-number-of-times-in-olog-n-time/
+
 //  two ways to solve 1). use XOR (^) operation or use binary search 3rd case
 
 #include <bits/stdc++.h>
